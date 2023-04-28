@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Color</title>
+    <style type="text/css">
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #111;
+      }
+      p {
+        border-style: solid;
+        border-width: 3px;
+        width: 200px;
+      }
+      p.one {
+        border-color: #0088dd;
+      }
+      p.two {
+        border-color: #bbbbaa #111 #ee3e80 #0088dd;
+      }
+      p.three {
+        width: 197px;
+        height: 54px;
+        border: 11px solid #fff;
+        border-image: url("Images/dots.gif") 11 11 11 11 stretch;
+      }
+      p.four {
+        width: 197px;
+        height: 54px;
+        border: 11px solid #fff;
+        border-image: url("Images/dots.gif") 11 11 11 11 round;
+      }
+      p.five {
+        border: 5px solid #ee3e80;
+        padding: 20px;
+        width: 275px;
+        border-radius: 10px;
+      }
+      p.six {
+        width: 250px;
+        border: 30px dotted #0088dd;
+        /*border-style: dotted;*/
+      }
+    </style>
+  </head>
+  <body>
+    <p class="one">The ARP Odyssey was introduced in 1972.</p>
+    <p class="two">The ARP Odyssey was introduced in 1972.</p>
+    <p class="three"></p>
+    <p class="four"></p>
+    <p class="five">
+      The Briard originated in, and is named for, the Brie historic region of
+      north-central France, where it was traditionally used both for herding
+      sheep and to defend them.
+    </p>
+    <p class="six">
+      The Briard originated in, and is named for, the Brie historic region of
+      north-central France, where it was traditionally used both for herding
+      sheep and to defend them.
+    </p>
+  </body>
+</html>
